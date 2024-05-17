@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0;}
+.nav{
+    padding: 1vw 2vw;
+    background-color: burlywood;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo a {
+    padding-left: 10;
+    font-weight: 600;
+    color: aliceblue;
+}
+.logo a span{
+    font-size: 30px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+button {
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 7px;
+}
+
+.zohaib{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.zohaib .images{
+    display: flex;
+    align-items: center;
+}
+.images p{
+    padding: 2vw 3vw;
+    width: 60%;
+}
+.zohaib .image2{
+    display: flex;
+    align-items: center;
+}
+.image2 p{
+    padding: 2vw 3vw;
+    width: 60%;
+}
